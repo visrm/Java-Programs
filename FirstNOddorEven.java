@@ -16,6 +16,6 @@ class FirstNOddorEven
 			i++;
 		}
 		System.out.println("The sum of even numbers is "+even_count);
-		System.out.println("The sum of odd numbers is "+oddcount);
+		System.out.println("The sum of odd numbers is "+odd_count);
 	}
 }
