@@ -6,16 +6,16 @@ class FirstNOddorEven
 		Scanner obj= new Scanner(System.in);
 		System.out.println("Enter a limit:");
 		int n= obj.nextInt();
-		int i= 1,evensum= 0,oddsum= 0;
+		int i= 1,even_count= 0,odd_count= 0;
 		while(i<= n)
 		{
 			if(i%2== 0)
-				evensum += i;
+				even_count += i;
 			else
-				oddsum += i;
+				odd_count += i;
 			i++;
 		}
-		System.out.println("The sum of even numbers is "+evensum);
-		System.out.println("The sum of odd numbers is "+oddsum);
+		System.out.println("The sum of even numbers is "+even_count);
+		System.out.println("The sum of odd numbers is "+oddcount);
 	}
 }
